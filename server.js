@@ -16,7 +16,7 @@ var sapgw = {
   headers: {
     'Authorization': 'Basic ' + new Buffer(username + ':' + password).toString('base64')
   }
-}
+};
 
 // Action: Proxy an incoming (ie. from the user's browser) request to the SAP Gateway
 function proxy(user_request, user_response) {
